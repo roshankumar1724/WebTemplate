@@ -1,0 +1,55 @@
+body {
+    background-color: gray;   
+}
+
+.main {
+    margin-top: 3em;
+    padding: 0;
+    /* margin: 0; */
+}
+.item img{
+    width: 100% !important;
+    /* overflow: hidden; */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#programmes {
+    padding-top: 3em;
+}
+
+.page-header>h1 {
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    /* height: 350px; */
+    /* overflow: hidden; */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 15px 15px 0 rgba(2, 138, 250, 0.4);
+}
+
+/* Add some padding inside the card container */
+.card > .container {
+    padding: 2px 16px;
+}
+
+.card > img {
+    width: 100% !important; 
+    height: 225px;
+}
+
+.jumbotron .ellipsis {
+    font-size: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
